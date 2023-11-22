@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156853760-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156853760-1');
+        </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+   
+   
+   
+    <meta name="theme-color" content="#21695a">
+    <title>Shirish Waghmode  </title>
+    
+    <link rel="shortcut icon" href="https://www.clipartmax.com/png/middle/132-1326818_icon-smoke-fire-flame-icon-black-png.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="assets/styles/style-index.css">
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit" async defer></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <script>
+        //paste this code under head tag or in a seperate js file.
+        // Wait for window load
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+    
+</head>
+
+
+
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="se-pre-con"></div>
+   
+    <!-- 
+        Sticky Navigation bar 
+    -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: rgba(0, 0, 0, 0.8); height: 6%;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+                <script>
+                  $(document).click(function (event) {
+                    var clickover = $(event.target);
+                    var $navbar = $(".navbar-collapse");               
+                    var _opened = $navbar.hasClass("in");
+                    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+                        $navbar.collapse('hide');
+                    }
+                });
+                </script>
+            </button>
+            <a class="navbar-brand" href="#" style="color: white; font-size: 130%; letter-spacing: 0.3px;"><strong>Shirish  Waghmode   </strong><span class="wave">👋</span></a>
+
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Techincal">Techincal Skills</a></li>
+                <li><a href="#github_contributions">Github</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </nav>    
+    
+    <!-- 
+        Main Content
+     -->
+    <main>
+        <div id="particles-js"> </div>
+        <!-- 
+            Main Header/Home
+         -->
+        <section id="header">
+            <header class="profile">
+                <img src="photo ssc.jpg" alt="Shirish Waghmode's Image" class="profile__image">
+                <h1 class="profile__name">Shirish</h1>
+                <h1 class="profile__name">Waghmode</h1>
+                <hr>
+                <p class="profile__profession"> <a class="typewrite" data-period="2000" data-type='["Data Science", "AI/ML geek.", "Web developer." ]'>
+                </a></p>
+                <div class="socialMedia">
+
+                    <a href="https://twitter.com/Shirixh" target="_blank">
+                        <i class="fab fa-twitter socialMedia__icon"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram socialMedia__icon"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/shirish-waghmode/" target="_blank">
+                        <i class="fab fa-linkedin socialMedia__icon"></i>
+                    </a>
+
+                    <a href="https://github.com/xhirish" target="_blank">
+                        <i class="fab fa-github socialMedia__icon"></i>
+                    </a>
+                    
+                </div>
+                <a href="https://drive.google.com/file/d/1qwj4a43vAWoBTnjPHcYkjVopkViIRfsq/view?usp=sharing" target="_blank" class="profile__link">My Resume</a>
+            </header>
+        </section>
+        <!-- 
+            WebSite Content
+         -->
+        <div class="content">
+            <!-- 
+                About Me Section
+             -->
+            <section id="about" class="paddingTop">
+                <h1 class="content__heading">About Me</h1>
+                <hr>
+                <p class="content__para">
+                    Hello, this is Shirish Waghmode and I am a 21-year-old undergraduate in Bhopal, Madhya Pradesh, India. Originally from Pune, India, in the state of Maharashtra.
+                </p>
+                <p class="content__para">
+                    I am an AI enthusiast with modest understanding of Machine Learning Algorithms and Data Analytics.
+
+                 </p>
+
+                <p class="content__para">
+                   Also I am a programmer with intermidiate knowledge of front-end & Learning back-end techniques. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, as you learn faster and much more. As the saying goes: <br> 'Two heads are better than one.!!'.
+                </p>
+
+                <p class="content__para">
+                    In 2024, I will graduate from VIT Bhopal University with a Master of Technology in Computer Science, specializing in Artificial Intelligence and Machine Learning.
+                </p>
+
+                <p class="content__para">If you wish to connect with me, then find me at
+                    <a href="https://twitter.com/Shirixh" target="_blank" class="content__link">Twitter</a>,
+                    <a href="https://www.linkedin.com/in/shirish-waghmode/" target="_blank" class="content__link"> Linkedin</a> and also on
+                    <a href="https://github.com/xhirish" target="_blank" class="content__link">Github</a>.
+                </p>
+
+                <p class="content__para">
+                    <strong>
+                        <a href="" class="content__link content__link--contact" id="donate" target="_blank">Did you like the website? or got inspired? or copied the theme? No problem! Just buy me a starbucks and make me happy!!!</a>.
+                    </strong>
+                </p>
+            </section>
+            <!-- 
+                Skills Section
+             -->
+            
+
+                <section id="Technical" class="paddingTop">
+                    <h1 class="content__heading">Technical Skills</h1>
+                    <hr>
+                    <div class="flexParent">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6" id="progress_head">Python
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="80%">
+                                        <div class="progress-bar" role="progressbar" style="background-color:#ce2525;width:80%"
+                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                                <div class="col-md-6" id="progress_head">Java
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="80%">
+                                        <div class="progress-bar" role="progressbar" style="background-color:#eff317;width: 80%;"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" id="progress_head">Machine Learning
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="70%"> 
+                                         <div class="progress-bar" role="progressbar" style="background-color: #ff86e4;width: 70%;"
+                                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                                <div class="col-md-6" id="progress_head">Data Analytics
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="70%">                                        <div class="progress-bar" role="progressbar" style="background-color:#ffa600;width: 50%"
+                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" id="progress_head">MySQL
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="60%">                                        <div class="progress-bar" role="progressbar" style="background-color:#1714d4;width: 80%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                                <div class="col-md-6" id="progress_head">Django
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="30%">                                        <div class="progress-bar" role="progressbar" style="background-color:#14f300;width: 30%"
+                                            aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" id="progress_head">OPPs
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="70%">                                        <div class="progress-bar" role="progressbar" style="background-color:#a82296;width: 80%"
+                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                                <div class="col-md-6" id="progress_head">HTML CSS & JS
+                                    <div class="progress">
+                                        <a data-toggle="tooltip" title="50%">                                        <div class="progress-bar" role="progressbar" style="background-color:#56ceaa;width: 30%"
+                                            aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div></a> <br>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </section>
+                
+
+                <h1 class="content__heading paddingTop" id="projects">PROJECTS</h1>
+                <hr>
+                <p class="content__para textCenter">All my projects can be found on my <strong><a href="https://github.com/xhirish"target="_blank" style="text-decoration: none; color: #0138B7;">Github</a> </strong> account</p>
+               
+                
+                <div class="flexParent">
+                    <a href="https://github.com/xhirish" target="_blank" style="text-decoration: none; color: #000000; " >
+                    <figure class="flexParent__skill"">
+                       
+
+            
+            <!-- 
+                Contact Me Section
+             -->
+            <section id="contact" class="paddingTop">  
+                <h1 class="content__heading paddingTop">Get in Touch</h1>
+                <hr>
+
+                <form class="contactForm js-contactForm" id="ajaxForm" action="https://formcarry.com/s/G-4SQ70qhCMS" method="POST" accept-charset="UTF-8">
+
+                    <form id="my-formcarry" accept-charset="UTF-8">
+                        ...
+                                              
+                    <div class="inputFields">
+
+                        <input type="text" placeholder="Name" id="name" class="contactForm__input input" name="name" autocomplete="name" required>
+
+                        <input type="email" placeholder="Email" id="email" class="contactForm__input input" name="email" autocomplete="email" required>
+
+                    </div>
+                    <input type="text" placeholder="Subject" name="subject" class="contactForm__input subject" required>
+
+                    <textarea name="message" id="message" class="contactForm__input textBox" cols="30" rows="10" placeholder="Message" required></textarea>
+
+                    <div id="g-recaptcha"></div>
+                    <br />
+
+                    <input type="submit" name="submit" value="Send Message" class="contactForm__submit">
+
+                </form>
+
+
+                <script src=""></script>
+                    <script>
+                    formcarry({
+                        form: "G-4SQ70qhCMS",
+                        // id or the class name of the form element, only form element allowed
+                        // works with css selectors
+                        // # <= for id
+                        // . <= for class
+                        element: "#my-formcarry",
+                        extraData: {
+                        // add whatever you want
+                        screenSize: `${window.screen.width}x${window.screen.height}`,
+                        language: window.navigator.language,
+                        },
+                        // Success callback, you can show alert messages
+                        // or redirect the user in this function
+                        onSuccess: function(response){
+                        alert(response)
+                        },
+                        // Error callback, a good place to show errors 🗿
+                        onError: function(error){
+                        alert(error)
+                        }
+                    });
+                    </script>
+
+                <div id="submitSuccess" class="successBox">
+                    <p class="successMsg" id="successMsg">Message Sent!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 
+        footer
+     -->
+    <footer class="footer">
+
+        <div class="socialMedia">
+
+            <a href="https://twitter.com/Shirixh" target="_blank">
+                <i class="fab fa-twitter socialMedia__icon"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram socialMedia__icon"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/shirish-waghmode/" target="_blank">
+                <i class="fab fa-linkedin socialMedia__icon"></i>
+            </a>
+
+            <a href="https://github.com/xhirish" target="_blank">
+                <i class="fab fa-github socialMedia__icon"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">&copy; Shirish Waghmode</p>
+    </footer>
+
+
+    <!-- 
+        Various Scripts
+     -->
+    <script src="assets/scripts/smooth-scroll.polyfills.min.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/solid.js" integrity="sha384-Z7p3uC4xXkxbK7/4keZjny0hTCWPXWfXl/mJ36+pW7ffAGnXzO7P+iCZ0mZv5Zt0"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/brands.js" integrity="sha384-ZqDZAkGUHrXxm3bvcTCmQWz4lt7QGLxzlqauKOyLwg8U0wYcYPDIIVTbZZXjbfsM"
+        crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/fontawesome.js" integrity="sha384-juNb2Ils/YfoXkciRFz//Bi34FN+KKL2AN4R/COdBOMD9/sV/UsxI6++NqifNitM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/scripts/script-index.js" onload="blink();"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="https://carrier.formcarry.com/js/v1.js"></script>
+    <script src="assets/scripts/particles.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+
+    <!-- Default Statcounter code for Portfolio Website
+       https://github.com/xhirish -->
+    
+        <!-- End of Statcounter Code -->
+ 
+
+</body>
+
+</html>
+
